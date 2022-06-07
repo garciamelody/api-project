@@ -19,7 +19,7 @@ const characters = {
     'panne':{
         'startingClass': 'Taguel',
         'birthPlace': 'Taguel',
-        'weapon': 'Beast'  
+        'weapon': 'Beaststone'  
     },
     'frederick':{
         'startingClass': 'Great Knight',
@@ -202,299 +202,299 @@ const characters = {
         'weapon': 'Lance'  
     },
     'inigo':{
-        'startingClass': 29,
-        'birthPlace': 'Chancelor Bennet',
-        'weapon': 'Chicago, Illinois'  
+        'startingClass': 'Mercenary',
+        'birthPlace': 'Nohr',
+        'weapon': 'Sword'  
     },
     'severa':{
-        'startingClass': 29,
-        'birthPlace': 'Chancelor Bennet',
-        'weapon': 'Chicago, Illinois'  
+        'startingClass': 'Mercenary',
+        'birthPlace': 'Nohr',
+        'weapon': 'Sword'  
     },
     'noire':{
-        'startingClass': 29,
-        'birthPlace': 'Chancelor Bennet',
-        'weapon': 'Chicago, Illinois'  
+        'startingClass': 'Archer',
+        'birthPlace': 'Plegia',
+        'weapon': 'Bow'  
     },
     'yarne':{
-        'startingClass': 29,
-        'birthPlace': 'Chancelor Bennet',
-        'weapon': 'Chicago, Illinois'  
+        'startingClass': 'Taguel',
+        'birthPlace': 'Unknown',
+        'weapon': 'Beaststone'  
     },
     'laurent':{
-        'startingClass': 29,
-        'birthPlace': 'Chancelor Bennet',
-        'weapon': 'Chicago, Illinois'  
+        'startingClass': 'Mage',
+        'birthPlace': 'Unknown',
+        'weapon': 'Tome'  
     },
     'brady':{
-        'startingClass': 29,
-        'birthPlace': 'Chancelor Bennet',
-        'weapon': 'Chicago, Illinois'  
+        'startingClass': 'Priest',
+        'birthPlace': 'Unknown',
+        'weapon': 'Staff'  
     },
     'nah':{
-        'startingClass': 29,
-        'birthPlace': 'Chancelor Bennet',
-        'weapon': 'Chicago, Illinois'  
+        'startingClass': 'Manakete',
+        'birthPlace': 'Unknown',
+        'weapon': 'Dragonstone'  
     },
     'cynthia':{
-        'startingClass': 29,
+        'startingClass': 'Pegasus Knight',
         'birthPlace': 'Chancelor Bennet',
-        'weapon': 'Chicago, Illinois'  
+        'weapon': 'Lance'  
     },
     'morgan':{
-        'startingClass': 29,
-        'birthPlace': 'Chancelor Bennet',
-        'weapon': 'Chicago, Illinois'  
+        'startingClass': 'Varies',
+        'birthPlace': 'Unknown',
+        'weapon': 'Varies'  
     },
     'validar':{
-        'startingClass': 29,
-        'birthPlace': 'Chancelor Bennet',
-        'weapon': 'Chicago, Illinois'  
+        'startingClass': 'Sorcerer',
+        'birthPlace': 'Plegia',
+        'weapon': 'Tome'  
+    },
+    'robin':{
+        'startingClass': 'Tactician',
+        'birthPlace': 'Plegia',
+        'weapon': 'Tome'  
     },
     'phila':{
-        'startingClass': 29,
-        'birthPlace': 'Chancelor Bennet',
-        'weapon': 'Chicago, Illinois'  
+        'startingClass': 'Falcon Knight',
+        'birthPlace': 'Ylisse',
+        'weapon': 'Lance'  
     },
     'hierarch':{
-        'startingClass': 29,
-        'birthPlace': 'Chancelor Bennet',
-        'weapon': 'Chicago, Illinois'  
+        'startingClass': 'Priest',
+        'birthPlace': 'Unknown',
+        'weapon': 'Unknown'  
     },
     'naga':{
-        'startingClass': 29,
-        'birthPlace': 'Chancelor Bennet',
-        'weapon': 'Chicago, Illinois'  
+        'startingClass': 'Divine Dragon',
+        'birthPlace': 'Unknown',
+        'weapon': 'Breath'  
     },
     'gyral':{
-        'startingClass': 29,
-        'birthPlace': 'Chancelor Bennet',
-        'weapon': 'Chicago, Illinois'  
+        'startingClass': 'General',
+        'birthPlace': 'Plegia',
+        'weapon': 'Tomahawk'  
     },
     'dalen':{
-        'startingClass': 29,
-        'birthPlace': 'Chancelor Bennet',
-        'weapon': 'Chicago, Illinois'  
-    },
-    'old hubba':{
-        'startingClass': 29,
-        'birthPlace': 'Chancelor Bennet',
-        'weapon': 'Chicago, Illinois'  
+        'startingClass': 'Paladin',
+        'birthPlace': 'Plegia',
+        'weapon': 'Spear'  
     },
     'grima':{
-        'startingClass': 29,
-        'birthPlace': 'Chancelor Bennet',
-        'weapon': 'Chicago, Illinois'  
+        'startingClass': 'Grima',
+        'birthPlace': 'Thabes',
+        'weapon': 'Breath'  
     },
     'cervantes':{
-        'startingClass': 29,
-        'birthPlace': 'Chancelor Bennet',
-        'weapon': 'Chicago, Illinois'  
+        'startingClass': 'General',
+        'birthPlace': 'Valm',
+        'weapon': 'Tomahawk'  
     },
     'excellus':{
-        'startingClass': 29,
-        'birthPlace': 'Chancelor Bennet',
-        'weapon': 'Chicago, Illinois'  
+        'startingClass': 'Sage',
+        'birthPlace': 'Valm',
+        'weapon': 'Tome'  
     },
     'garrick':{
-        'startingClass': 29,
-        'birthPlace': 'Chancelor Bennet',
-        'weapon': 'Chicago, Illinois'  
+        'startingClass': 'Barbarian',
+        'birthPlace': 'Plegia',
+        'weapon': 'Axe'  
     },
     'raimi':{
-        'startingClass': 29,
-        'birthPlace': 'Chancelor Bennet',
-        'weapon': 'Chicago, Illinois'  
+        'startingClass': 'Knight',
+        'birthPlace': 'Ferox',
+        'weapon': 'Lance'  
     },
     'roddick':{
-        'startingClass': 29,
-        'birthPlace': 'Chancelor Bennet',
-        'weapon': 'Chicago, Illinois'  
+        'startingClass': 'Barbarian',
+        'birthPlace': 'Ylisse',
+        'weapon': 'Axe'  
     },
     'victor':{
-        'startingClass': 29,
-        'birthPlace': 'Chancelor Bennet',
-        'weapon': 'Chicago, Illinois'  
+        'startingClass': 'Berserker',
+        'birthPlace': 'Ferox',
+        'weapon': 'Axe'  
     },
     'vincent':{
-        'startingClass': 29,
-        'birthPlace': 'Chancelor Bennet',
-        'weapon': 'Chicago, Illinois'  
+        'startingClass': 'Berserker',
+        'birthPlace': 'Ferox',
+        'weapon': 'Axe' 
     },
     'orton':{
-        'startingClass': 29,
-        'birthPlace': 'Chancelor Bennet',
-        'weapon': 'Chicago, Illinois'  
+        'startingClass': 'Wyvern Rider',
+        'birthPlace': 'Plegia',
+        'weapon': 'Axe'
     },
     'vasto':{
-        'startingClass': 29,
-        'birthPlace': 'Chancelor Bennet',
-        'weapon': 'Chicago, Illinois'  
+        'startingClass': 'Wyvern Rider',
+        'birthPlace': 'Plegia',
+        'weapon': 'Axe'  
     },
     'chalard':{
-        'startingClass': 29,
-        'birthPlace': 'Chancelor Bennet',
-        'weapon': 'Chicago, Illinois'  
+        'startingClass': 'Dark Mage',
+        'birthPlace': 'Plegia',
+        'weapon': 'Tome'  
     },
     'campari':{
-        'startingClass': 29,
-        'birthPlace': 'Chancelor Bennet',
-        'weapon': 'Chicago, Illinois'  
+        'startingClass': 'General',
+        'birthPlace': 'Plegia',
+        'weapon': 'Lance'  
     },
     'mustafa':{
-        'startingClass': 29,
-        'birthPlace': 'Chancelor Bennet',
-        'weapon': 'Chicago, Illinois'  
+        'startingClass': 'Berserker',
+        'birthPlace': 'Plegia',
+        'weapon': 'Axe'  
     },
     'dalton':{
-        'startingClass': 29,
-        'birthPlace': 'Chancelor Bennet',
-        'weapon': 'Chicago, Illinois'  
+        'startingClass': 'Paladin',
+        'birthPlace': 'Valm',
+        'weapon': 'Lance'  
     },
     'gecko':{
-        'startingClass': 29,
-        'birthPlace': 'Chancelor Bennet',
-        'weapon': 'Chicago, Illinois'  
+        'startingClass': 'Assassin',
+        'birthPlace': 'Valm',
+        'weapon': 'Sword'  
     },
     'jamil':{
-        'startingClass': 29,
-        'birthPlace': 'Chancelor Bennet',
-        'weapon': 'Chicago, Illinois'  
+        'startingClass': 'Assassin',
+        'birthPlace': 'Plegia',
+        'weapon': 'Sword'  
     },
     'xalbador':{
-        'startingClass': 29,
-        'birthPlace': 'Chancelor Bennet',
-        'weapon': 'Chicago, Illinois'  
+        'startingClass': 'Hero',
+        'birthPlace': 'Valm',
+        'weapon': 'Weapon'  
     },
     'cassius':{
-        'startingClass': 29,
-        'birthPlace': 'Chancelor Bennet',
-        'weapon': 'Chicago, Illinois'  
+        'startingClass': 'Sorcerer',
+        'birthPlace': 'Ferox',
+        'weapon': 'Tome'  
     },
     'ruger':{
-        'startingClass': 29,
-        'birthPlace': 'Chancelor Bennet',
-        'weapon': 'Chicago, Illinois'  
+        'startingClass': 'Trickster',
+        'birthPlace': 'Valm',
+        'weapon': 'Sword'  
     },
     'nelson':{
-        'startingClass': 29,
-        'birthPlace': 'Chancelor Bennet',
-        'weapon': 'Chicago, Illinois'  
+        'startingClass': 'Sage',
+        'birthPlace': 'Valm',
+        'weapon': 'Tome'  
     },
     'holland':{
-        'startingClass': 29,
-        'birthPlace': 'Chancelor Bennet',
-        'weapon': 'Chicago, Illinois'  
+        'startingClass': 'Villager',
+        'birthPlace': 'Ylisse',
+        'weapon': 'Lance'  
     },
     'morristan':{
-        'startingClass': 29,
-        'birthPlace': 'Chancelor Bennet',
-        'weapon': 'Chicago, Illinois'  
+        'startingClass': 'Berserker',
+        'birthPlace': 'Valm',
+        'weapon': 'Axe'  
     },
     'nombry':{
-        'startingClass': 29,
-        'birthPlace': 'Chancelor Bennet',
-        'weapon': 'Chicago, Illinois'  
+        'startingClass': 'Warrior',
+        'birthPlace': 'Ylisse',
+        'weapon': 'Axe'  
     },
     'ezra':{
-        'startingClass': 29,
-        'birthPlace': 'Chancelor Bennet',
-        'weapon': 'Chicago, Illinois'  
+        'startingClass': 'Bow Knight',
+        'birthPlace': 'Ferox',
+        'weapon': 'Bow'  
     },
     'ignatius':{
-        'startingClass': 29,
-        'birthPlace': 'Chancelor Bennet',
-        'weapon': 'Chicago, Illinois'  
+        'startingClass': 'General',
+        'birthPlace': 'Valm',
+        'weapon': 'Lance'  
     },
     'farber':{
-        'startingClass': 29,
-        'birthPlace': 'Chancelor Bennet',
-        'weapon': 'Chicago, Illinois'  
+        'startingClass': 'Dark Knight',
+        'birthPlace': 'Valm',
+        'weapon': 'Tome'  
     },
     'pheros':{
-        'startingClass': 29,
-        'birthPlace': 'Chancelor Bennet',
-        'weapon': 'Chicago, Illinois'  
+        'startingClass': 'Valkyrie',
+        'birthPlace': 'Valm',
+        'weapon': 'Staff'  
     },
     'algol':{
-        'startingClass': 29,
-        'birthPlace': 'Chancelor Bennet',
-        'weapon': 'Chicago, Illinois'  
+        'startingClass': 'Berserker',
+        'birthPlace': 'Plegia',
+        'weapon': 'Axe'  
     },
     'zanth':{
-        'startingClass': 29,
-        'birthPlace': 'Chancelor Bennet',
-        'weapon': 'Chicago, Illinois'  
+        'startingClass': 'Berserker',
+        'birthPlace': 'Ylisse',
+        'weapon': 'Axe'  
     },
     'ardri':{
-        'startingClass': 29,
-        'birthPlace': 'Chancelor Bennet',
-        'weapon': 'Chicago, Illinois'  
+        'startingClass': 'Sorcerer',
+        'birthPlace': 'Plegia',
+        'weapon': 'Tome'  
     },
     'mus':{
-        'startingClass': 29,
-        'birthPlace': 'Chancelor Bennet',
-        'weapon': 'Chicago, Illinois'  
+        'startingClass': 'General',
+        'birthPlace': 'Plegia',
+        'weapon': 'Lance'  
     },
     'bovis':{
-        'startingClass': 29,
-        'birthPlace': 'Chancelor Bennet',
-        'weapon': 'Chicago, Illinois'  
+        'startingClass': 'Bow Knight',
+        'birthPlace': 'Plegia',
+        'weapon': 'Sword'  
     },
     'tigris':{
-        'startingClass': 29,
-        'birthPlace': 'Chancelor Bennet',
-        'weapon': 'Chicago, Illinois'  
+        'startingClass': 'Warrior',
+        'birthPlace': 'Plegia',
+        'weapon': 'Axe'  
     },
     'lepus':{
-        'startingClass': 29,
-        'birthPlace': 'Chancelor Bennet',
-        'weapon': 'Chicago, Illinois'  
+        'startingClass': 'War Cleric',
+        'birthPlace': 'Unknown',
+        'weapon': 'Axe'  
     },
     'draco':{
-        'startingClass': 29,
-        'birthPlace': 'Chancelor Bennet',
-        'weapon': 'Chicago, Illinois'  
+        'startingClass': 'Sniper',
+        'birthPlace': 'Unknown',
+        'weapon': 'Bow'  
     },
     'anguilla':{
-        'startingClass': 29,
-        'birthPlace': 'Chancelor Bennet',
-        'weapon': 'Chicago, Illinois'  
+        'startingClass': 'Dark Knight',
+        'birthPlace': 'Unknown',
+        'weapon': 'Tome'  
     },
     'equus':{
-        'startingClass': 29,
-        'birthPlace': 'Chancelor Bennet',
-        'weapon': 'Chicago, Illinois'  
+        'startingClass': 'Paladin',
+        'birthPlace': 'Unknown',
+        'weapon': 'Lance'  
     },
     'ovis':{
-        'startingClass': 29,
-        'birthPlace': 'Chancelor Bennet',
-        'weapon': 'Chicago, Illinois'  
+        'startingClass': 'Sage',
+        'birthPlace': 'Unknown',
+        'weapon': 'Tome'  
     },
     'simia':{
-        'startingClass': 29,
-        'birthPlace': 'Chancelor Bennet',
-        'weapon': 'Chicago, Illinois'  
+        'startingClass': 'Swordmaster',
+        'birthPlace': 'Unknown',
+        'weapon': 'Sword'  
     },
     'gallus':{
-        'startingClass': 29,
-        'birthPlace': 'Chancelor Bennet',
-        'weapon': 'Chicago, Illinois'  
+        'startingClass': 'Sorcerer',
+        'birthPlace': 'Unknown',
+        'weapon': 'Tome'  
     },
     'canis':{
-        'startingClass': 29,
-        'birthPlace': 'Chancelor Bennet',
-        'weapon': 'Chicago, Illinois'  
+        'startingClass': 'Valkyrie',
+        'birthPlace': 'Unknown',
+        'weapon': 'Tome'  
     },
     'porcus':{
-        'startingClass': 29,
-        'birthPlace': 'Chancelor Bennet',
-        'weapon': 'Chicago, Illinois'  
+        'startingClass': 'Assassin',
+        'birthPlace': 'Unknown',
+        'weapon': 'Sword'  
     },
     'unknown':{
-        'startingClass': 0,
-        'birthPlace': 'unknown',
-        'weapon': 'unknown'
+        'startingClass': 'N/A',
+        'birthPlace': 'N/A',
+        'weapon': 'N/A'
     }
 }
 app.get('/', (request, response) => {
