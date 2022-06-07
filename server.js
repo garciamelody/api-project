@@ -498,10 +498,7 @@ const characters = {
     }
 }
 app.get('/', (request, response) => {
-    response.sendFile(__dirname +'/index.html')
-})
-app.get('/', (request, response) => {
-    response.sendFile(__dirname +'/style.css')
+    response.sendFile(__dirname +'/index.html'+'/style.css')
 })
 
 app.get('/api/:name', (request, response) => {
