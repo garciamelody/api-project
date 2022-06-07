@@ -2,7 +2,6 @@ const express = require('express')
 const app = express()
 const cors = require('cors')
 const PORT = 8000
-
 app.use(cors())
 
 const characters = {
@@ -498,8 +497,13 @@ const characters = {
     }
 }
 app.get('/', (request, response) => {
-    response.sendFile(__dirname +'/index.html'+'/style.css')
+    response.sendFile(__dirname + '/index.html')
 })
+
+app.get('/public/style.css', (request, response) =>{
+    response.sendFile(__dirname + '/public/style.css')
+})
+
 
 app.get('/api/:name', (request, response) => {
     const characterName = request.params.name.toLowerCase()
