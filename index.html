@@ -6,15 +6,165 @@
   	<meta name="keywords" content="one, two, three">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 		
-		<title>Blank Template</title>
+		<title>Fire Emblem Awakening Api</title>
 
 		<!-- external CSS link -->
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
-		<h1>Fire Emblem Awakening Api</h1>
-		<p>Please use https://fire-emblem-api.herokuapp.com/api/name<p>
+		<section>
+			<h1>Fire Emblem Awakening Characters</h1>
+			<p>The unofficial API for all characters (including NPCs) in the game Fire Emblem Awakening.</p>
+			<p>To access objects of individual characters use: https://fire-emblem-api.herokuapp.com/api/<span>character name</span><p>
+			<p>example:<a target="_blank" href="https://fire-emblem-api.herokuapp.com/api/chrom">https://fire-emblem-api.herokuapp.com/api/chrom</a></p>
+			<p>For the JS formatted fetch parameter use: `https://fire-emblem-api.herokuapp.com/api/${character name}`</p>
+		</section>
+
+		<section class="propertiesSection">
+			<h2>The Properties</h2>
+			<p>There are 3 properties that come with each character and each return a string</p>
+			<ul>
+				<li>startingClass</li>
+				<p>The class at which the chatacter starts in the game</p>
+				<li>birthPlace*</li>
+				<p>The country or town that the character was born in</p>
+				<li>weapon</li>
+				<p>The main weapon that a character uses / starts out with</p>
+			</ul>
+			<p>* most npcs won't have a birthPlace due to that information being unknown</p>
+		</section>
+
+		<section class="characterSection">
+			<h2>List of Characters included</h2>
+			<p>If a character name doesn't exist in the game or is typed incorrectly it will return an object where all property values will be 'N/A'</p>
+			<section>
+				<ul>
+					<li>Chrom</li>
+					<li>Lissa</li>
+					<li>Panne</li>
+					<li>Frederick</li>
+					<li>Tiki</li>
+					<li>Virion</li>
+					<li>Sully</li>
+					<li>Vaike</li>
+					<li>Gaius</li>
+					<li>Miriel</li>
+					<li>Kellam</li>
+					<li>Cordelia</li>
+					<li>Flavia</li>
+					<li>Libra</li>
+					<li>Olivia</li>
+				</ul>
+				<ul>
+					<li>Tharja</li>
+					<li>Lon'qu</li>
+					<li>Nowi</li>
+					<li>Gregor</li>
+					<li>Sumia</li>
+					<li>Henry</li>
+					<li>Cherche</li>
+					<li>Priam</li>
+					<li>Ricken</li>
+					<li>Maribelle</li>
+					<li>Basilio</li>
+					<li>Yen'fay</li>
+					<li>Say'ri</li>
+					<li>Stahl</li>
+					<li>Gangrel</li>
+				</ul>
+				<ul>
+					<li>Aversa</li>
+					<li>Walhart</li>
+					<li>Emmeryn</li>
+					<li>Anna</li>
+					<li>Donnel</li>
+					<li>Lucina</li>
+					<li>Gerome</li>
+					<li>Owain</li>
+					<li>Kjelle</li>
+					<li>Inigo</li>
+					<li>Severa</li>
+					<li>Noire</li>
+					<li>Yarne</li>
+					<li>Laurent</li>
+					<li>Brady</li>
+				</ul>
+			</section>
+			<section>
+				<ul>
+					<li>Nah</li>
+					<li>Cynthia</li>
+					<li>Morgan</li>
+					<li>Validar</li>
+					<li>Robin</li>
+					<li>Phila</li>
+					<li>Hierarch</li>
+					<li>Naga</li>
+					<li>Gyral</li>
+					<li>Dalen</li>
+					<li>Grima</li>
+					<li>Cervantes</li>
+					<li>Excellus</li>
+					<li>Garrick</li>
+					<li>Raimi</li>
+				</ul>
+				<ul>
+					<li>Roddick</li>
+					<li>Victor</li>
+					<li>Vincent</li>
+					<li>Orton</li>
+					<li>Vasto</li>
+					<li>Chalard</li>
+					<li>Campari</li>
+					<li>Mustafa</li>
+					<li>Dalton</li>
+					<li>Gecko</li>
+					<li>Jamil</li>
+					<li>Xalbador</li>
+					<li>Cassius</li>
+					<li>Ruger</li>
+					<li>Nelson</li>
+				</ul>
+				<ul>
+					<li>Holland</li>
+					<li>Morristan</li>
+					<li>Nombry</li>
+					<li>Ezra</li>
+					<li>Ignatius</li>
+					<li>Farber</li>
+					<li>Pheros</li>
+					<li>Algol</li>
+					<li>Zanth</li>
+					<li>Ardri</li>
+					<li>Mus</li>
+					<li>Bovis</li>
+					<li>Tigris</li>
+					<li>Lepus</li>
+					<li>Draco</li>
+				</ul>
+			</section>
+			<section>
+				<ul>
+					<li>Anguilla</li>
+					<li>Equus</li>
+					<li>Ovis</li>
+					<li>Simia</li>
+					<li>Gallus</li>
+					<li>Canis</li>
+					<li>Porcus</li>
+				</ul>
+			</section>
+		</section>
+	<footer>
+		<section class="infoSection">
+			<span>find me on: 
+				<a target="_blank " href="https://github.com/garciamelody">Github</a>
+				<a target="_blank" href="https://twitter.com/garciaamelody">Twitter</a>
+			</span>
+		</section>
+	</footer>
+
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>
 </html>
